@@ -1,0 +1,43 @@
+body {
+    font-size: 13px;
+    margin:5px;
+}
+h1 {
+    font-size:5px;
+}
+h2 {}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+@media screen and (min-width: 700px) {
+  body{
+    background-color: red;
+    font-size: 20px;
+    margin:15px;
+}
+figure {
+    float: left;
+    width: 45%;
+    margin-right: 4.5%;
+  }
+}
+
+@media screen and (min-width: 840px) {
+    body {
+      background-color:LightGray;
+      font-size: 20px;
+      max-width: 1130px;
+    }
+    
+    figure {
+      width: 30%;
+      margin-right: 2.5%;
+    }
+  }
+  
